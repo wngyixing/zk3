@@ -25,4 +25,16 @@ require(["jquery", "handlebars", 'template', 'swiper', "bann"], function($, Hand
             bann()
         }
     })
+    $.ajax({
+        url: "/getlist",
+        data: 'get',
+        dataType: 'json',
+        success: function(data) {
+            console.log(data)
+                // template("#ban", {
+                //     data: data
+                // }, ".swiper-wrapper")
+                // bann()
+        }
+    })
 })

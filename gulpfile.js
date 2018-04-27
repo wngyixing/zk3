@@ -13,6 +13,26 @@ gulp.task('default', function() {
                 }, { "img": "./stutic/img/ban/2.png" }];
                 res.end(JSON.stringify(data))
 
+            } else if (objurl.pathname === "/getlist") {
+                var data = [{
+                        "tit": "活动频道",
+                        "img": "./stutic/img/nav/1.png"
+                    },
+                    {
+                        "tit": "小米闪购",
+                        "img": "./stutic/img/nav/2.png"
+                    },
+                    {
+                        "tit": "好友拼团",
+                        "img": "./stutic/img/nav/3.png"
+                    },
+                    {
+                        "tit": "小米分期",
+                        "img": "./stutic/img/nav/4.png"
+                    }
+                ];
+                res.end(JSON.stringify(data))
+
             } else {
                 next()
             }
