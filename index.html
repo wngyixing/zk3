@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stutic/css/swiper.min.css">
+    <link rel="stylesheet" href="./stutic/css/index.css">
+</head>
+
+<body>
+    <div class="wrap">
+        <div class="header">
+            <input type="text" name="" value="" placeholder="小米MIX 2s">
+            <span>···</span>
+        </div>
+        <div class="section">
+            <div class="box">
+                <div class="ban swiper-container">
+                    <ul class="swiper-wrapper">
+                        <script type="text/x-handlebars-template" id="ban">
+                            {{#each data}}
+                            <li><img src="{{img}}" alt=""></li>
+                            {{/each}}
+                        </script>
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt><img src="./stutic/img/nav/1.png" alt=""></dt>
+                                <dd>活动频道</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><img src="./stutic/img/nav/2.png" alt=""></dt>
+                                <dd>小米闪购</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><img src="./stutic/img/nav/3.png" alt=""></dt>
+                                <dd>好友拼团</dd>
+                            </dl>
+                        </li>
+                        <li>
+                            <dl>
+                                <dt><img src="./stutic/img/nav/4.png" alt=""></dt>
+                                <dd>小米分期</dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+                <div class="list">
+                    <ul>
+                        <li>
+                            <dl>
+                                <dt><img src="./stutic/img/list/1.png" alt=""></dt>
+                                <dd>
+                                    <h3>小米之家北京五彩城店</h3>
+                                    <p>距离3.79公里</p>
+                                    <span>其他零售店></span>
+                                </dd>
+                            </dl>
+                        </li>
+                    </ul>
+                </div>
+                <div class="ban1">
+                    <ul>
+                        <li><img src="./stutic/img/ban/2.png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="lis">
+                    <p>商城早报</p>
+                    <ul>
+                        <li>
+                            <img src="./stutic/img/lis/1.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./stutic/img/lis/2.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./stutic/img/lis/3.png" alt="">
+                        </li>
+
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <ul>
+                <li>
+                    <a href="./index.html">首页</a>
+                </li>
+                <li>
+                    <a href="./fenlei.html">分类</a>
+                </li>
+                <li>
+                    <a href="./shopp.html">购物</a>
+                </li>
+                <li>
+                    <a href="./wode.html">我的</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="./stutic/js/lib/require.js" data-main="./stutic/js/page/main">
+    </script>
+    <!-- <script>
+        require(["./stutic/js/config"], function() {
+            require(['main'])
+        })
+    </script> -->
+</body>
+
+</html>

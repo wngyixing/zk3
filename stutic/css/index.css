@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+html,
+body,
+.wrap {
+  width: 100%;
+  height: 100%;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+.wrap .header {
+  height: 1.06666667rem;
+  padding: 10px 50px 5px 20px;
+  line-height: 1.06666667rem;
+  position: relative;
+}
+.wrap .header input {
+  width: 100%;
+  display: block;
+  height: 0.66666667rem;
+  background: #ccc;
+  border-radius: 5px;
+  border: 0;
+  text-indent: .5rem;
+  line-height: normal;
+}
+.wrap .header span {
+  position: absolute;
+  top: 0;
+  right: 5px;
+}
+.wrap .section {
+  flex: 1;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+.wrap .section .box .ban ul,
+.wrap .section .box .ban1 ul {
+  width: 200%;
+}
+.wrap .section .box .ban ul li,
+.wrap .section .box .ban1 ul li {
+  width: 100%;
+}
+.wrap .section .box .ban ul li img,
+.wrap .section .box .ban1 ul li img {
+  width: 100%;
+}
+.wrap .section .box .nav ul {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+}
+.wrap .section .box .nav ul li {
+  flex: 1;
+}
+.wrap .section .box .nav ul li dl {
+  padding: 5px 5px 10px 5px;
+}
+.wrap .section .box .nav ul li dl dt {
+  width: 0.88rem;
+  margin: 0 auto;
+}
+.wrap .section .box .nav ul li dl dt img {
+  width: 100%;
+}
+.wrap .section .box .nav ul li dl dd {
+  font-size: 0.34666667rem;
+  text-align: center;
+}
+.wrap .section .box .list {
+  padding: 10px 10px 20px 10px;
+  font-size: 0.34666667rem;
+}
+.wrap .section .box .list ul li dl {
+  display: flex;
+  position: relative;
+  padding-left: 2.66666667rem;
+}
+.wrap .section .box .list ul li dl dt {
+  width: 2.66666667rem;
+  position: absolute;
+  top: 0;
+  left: 10px;
+}
+.wrap .section .box .list ul li dl dt img {
+  width: 100%;
+}
+.wrap .section .box .list ul li dl dd {
+  width: 100%;
+  margin-left: 15px;
+  position: relative;
+}
+.wrap .section .box .list ul li dl dd h3 {
+  line-height: 30px;
+}
+.wrap .section .box .list ul li dl dd p {
+  color: #ccc;
+  line-height: 30px;
+}
+.wrap .section .box .list ul li dl dd span {
+  color: #ccc;
+  position: absolute;
+  top: 0.8rem;
+  right: 5px;
+}
+.wrap .section .box .ban1 ul {
+  border-top: 5px solid #ccc;
+}
+.wrap .section .box .lis p {
+  padding-left: 20px;
+  font-size: 0.48rem;
+  line-height: 0.8rem;
+}
+.wrap .section .box .lis ul {
+  display: flex;
+}
+.wrap .section .box .lis ul li {
+  flex: 1;
+}
+.wrap .section .box .lis ul li img {
+  width: 100%;
+}
+.wrap .footer {
+  border-top: 1px solid #ccc;
+  height: 1.06666667rem;
+}
+.wrap .footer ul {
+  display: flex;
+}
+.wrap .footer ul li {
+  flex: 1;
+  text-align: center;
+  line-height: 1.06666667rem;
+}
+.wrap .footer ul li a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  font-size: 0.34666667rem;
+}
