@@ -31,9 +31,9 @@ require(["jquery", "handlebars", 'template', 'swiper', "bann"], function($, Hand
         dataType: 'json',
         success: function(data) {
             console.log(data)
-                // template("#ban", {
-                //     data: data
-                // }, ".swiper-wrapper")
+            template("#nav", {
+                    data: data
+                }, ".nav1")
                 // bann()
         }
     })

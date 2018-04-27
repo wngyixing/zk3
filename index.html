@@ -28,31 +28,18 @@
                     </ul>
                 </div>
                 <div class="nav">
-                    <ul>
-                        <li>
-                            <dl>
-                                <dt><img src="./stutic/img/nav/1.png" alt=""></dt>
-                                <dd>活动频道</dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt><img src="./stutic/img/nav/2.png" alt=""></dt>
-                                <dd>小米闪购</dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt><img src="./stutic/img/nav/3.png" alt=""></dt>
-                                <dd>好友拼团</dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt><img src="./stutic/img/nav/4.png" alt=""></dt>
-                                <dd>小米分期</dd>
-                            </dl>
-                        </li>
+                    <ul class='nav1'>
+                        <script type="text/x-handlebars-template" id="nav">
+                            {{#each data}}
+                            <li>
+                                <dl>
+                                    <dt><img src="{{img}}" alt=""></dt>
+                                    <dd>{{tit}}</dd>
+                                </dl>
+                            </li>
+                            {{/each}}
+                        </script>
+
                     </ul>
                 </div>
                 <div class="list">
